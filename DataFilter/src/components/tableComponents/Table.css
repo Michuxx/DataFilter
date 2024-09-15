@@ -2,17 +2,55 @@ table {
   width: 100%;
 }
 
-table,
-th,
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+th {
+  padding: 1rem;
+  background-color: #36304a;
+  color: white;
+  text-align: left;
+}
+
 td {
-  border: 1px solid black;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 td input {
   width: 98%;
 }
 
+tr {
+  background-color: white;
+}
+
+tr:nth-child(even) {
+  background: #e6e6e7;
+}
+
 .loading {
   text-align: center;
   font-size: 3rem;
+}
+
+.container {
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+}
+
+.userTable {
+  width: 80%;
+  margin-top: 10svh;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }

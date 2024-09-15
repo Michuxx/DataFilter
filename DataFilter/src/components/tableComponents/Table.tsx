@@ -52,6 +52,7 @@ const Table = () => {
                 {inputOptions.map((option) => (
                   <td>
                     <Input
+                      key={option.placeholder}
                       type={option.type}
                       placeholder={option.placeholder}
                     />
@@ -60,10 +61,18 @@ const Table = () => {
               </tr>
               {user.users.map((user: any) => (
                 <tr key={user.id}>
-                  <td>{user.name}</td>
-                  <td>{user.username}</td>
-                  <td>{user.email}</td>
-                  <td>{user.phone}</td>
+                  <td>
+                    <p>{user.name}</p>
+                  </td>
+                  <td>
+                    <p>{user.username}</p>
+                  </td>
+                  <td>
+                    <p>{user.email}</p>
+                  </td>
+                  <td>
+                    <p>{user.phone}</p>
+                  </td>
                 </tr>
               ))}
             </tbody>
