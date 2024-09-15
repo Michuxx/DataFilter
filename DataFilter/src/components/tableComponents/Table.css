@@ -1,0 +1,18 @@
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+td input {
+  width: 98%;
+}
+
+.loading {
+  text-align: center;
+  font-size: 3rem;
+}
