@@ -41,16 +41,16 @@ const Table = () => {
           <table>
             <thead>
               <tr>
-                <th>name</th>
-                <th>username</th>
-                <th>email</th>
-                <th>phone</th>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Phone</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 {inputOptions.map((option) => (
-                  <td>
+                  <td className="td-input">
                     <Input
                       key={option.placeholder}
                       type={option.type}

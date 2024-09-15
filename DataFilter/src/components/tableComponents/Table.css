@@ -23,7 +23,11 @@ td {
 }
 
 td input {
-  width: 98%;
+  width: 95%;
+}
+
+.td-input {
+  padding-left: 10px;
 }
 
 tr {
