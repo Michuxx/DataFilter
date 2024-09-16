@@ -14,6 +14,7 @@ th {
   background-color: #36304a;
   color: white;
   text-align: left;
+  font-size: 1.7rem;
 }
 
 td {
@@ -22,12 +23,9 @@ td {
   padding-bottom: 1rem;
 }
 
-td input {
-  width: 95%;
-}
-
 .td-input {
-  padding-left: 10px;
+  padding: 0;
+  background-color: #212121;
 }
 
 tr {
